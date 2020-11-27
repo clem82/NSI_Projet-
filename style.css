@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    background-color: #378FB5;
+    display: table;
+    margin: auto;
+}
+
+.header ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header ul li {
+    list-style-type: none;
+    float: left;
+}
+
+.header ul li a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: white;
+    font-size: 19px;
+}
+
+/* IMAGE */
+
+.img {
+    width: 85px;
+    height: 65px;
+}
+
+/* TABLEAU SALLES.PHP */
+
+#content table {
+    text-align: center;
+}
+
+
+#content table tr td {
+    border: 1px solid grey;
+    width: 120px;
+    font-size: 14px;
+}
+
+#content table .ex {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#content table .com {
+    width: 275px;
+}
+
+#content table tr .img {
+    border: 0px;
+}
+
+.other {
+    background-color: green;
+}
